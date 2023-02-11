@@ -10,6 +10,7 @@
         "services",
         "pattern"
     ],
+    "homepage": "https://github.com/bhargavraviya",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -27,7 +28,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RaviyaTechnical\\ServiceGenerator"
+                "RaviyaTechnical\\ServiceGenerator\\ServiceGeneratorServiceProvider",
+                "RaviyaTechnical\\ServiceGenerator\\Http\\Providers\\CommandServiceProvider"
             ]
         }
     }
