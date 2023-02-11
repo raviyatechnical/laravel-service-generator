@@ -1,0 +1,34 @@
+{
+    "name": "raviyatechnical/laravel-service-generator",
+    "description": "Generate services in Laravel with the artisan command",
+    "keywords": [
+        "generator",
+        "php",
+        "cli",
+        "laravel",
+        "artisan",
+        "services",
+        "pattern"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bhargav Raviya",
+            "email": "raviyatechnical@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "RaviyaTechnical\\ServiceGenerator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RaviyaTechnical\\ServiceGenerator"
+            ]
+        }
+    }
+}
